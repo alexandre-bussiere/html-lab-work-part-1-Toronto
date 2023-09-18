@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src=assets/image/dice-banner.jpg alt="dice banner">
+            <nav id="main-nav">
+                <nav>
+                    <ul>
+                        <li> <a href=index.html>Home </a></li>
+                        <li> <a href=about.html>About Us </a></li>
+                        <li> <a href=service.html>Our Service </a></li>
+                        <li> <a href=contact.html>Contact Us </a></li>
+                    </ul>
+                </nav>
+            </nav>
+        </header>
+        <main class="content">
+            <h1>Contact Us:</h1>
+            <form method="post" name="ajoutPWD" action="#" class="box" id="addPWD" onsubmit="return false">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label>First Name:</label>
+                    <input type="text" id="firstName" name="firstName" maxlength="25" required></input>
+                    <br><br>
+                    <label>Last Name:</label>
+                    <input type="text" id="LastName" name="LastName" maxlength="25" required></input>
+                    <br><br>
+                    <label>Email:</label>
+                    <input type="text" id="LastName" name="LastName" maxlength="35" required></input>
+                    <br><br>
+                    <label>Please select your favorite type of dice :</label>
+                    <br>
+                    <input type="checkbox" id="D100">D 100</input>
+                    <br>
+                    <input type="checkbox" id="D20">D 20</input>
+                    <br>
+                    <input type="checkbox" id="D12">D 12</input>
+                    <br>
+                    <input type="checkbox" id="D6">D 6</input>
+                    <br>
+                    <input type="checkbox" id="D4">D 4</input>
+                </fieldset>
+                <fieldset>
+                    <legend>Your Message</legend>
+                    <br>
+                    <label>How did you hear about us ?</label>
+                    <select id="know">
+                        <option>-- please choose a way-- </option>
+                        <option value="friend">friend</option>
+                        <option value="website">Our website</option>
+                        <option value="instagrame">instagrame</option>
+                        <option value="facebook">facebook</option>
+                        <option value="Twitter">Twitter</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <br><br>
+                    <label>Would you recommend us to your friends ?</label>
+                    <br>
+                    <input type="radio" id="yes-recomend" name="recommend" checked>Yes</input>
+                    <input type="radio" id="no-recomend" name="recommend">No</input>
+                    <input type="radio" id="maybe-recomend" name="recommend">Maybe</input>
+                    <br><br>
+                    <label>Your request :</label>
+                    <br>
+                    <input type="text" id="contact-request"></input>
+                    <br><br>
+                    <input type="checkbox" id="Email-update" checked></input>
+                    <label> Sign me up for email updates</label>
+                    <br><br>
+                    <button type="submit" id="contact-submit">Submit</button>
+                </fieldset>
+                <br><br>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d46181.36150331982!2d-79.44679609721682!3d43.662000253327314!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b35601ebca6f7%3A0x470b519fa86b39a5!2sBoardGame2Go!5e0!3m2!1sfr!2sca!4v1695018177184!5m2!1sfr!2sca"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br><br>
+            </form>
+        </main>
+        <footer>
+            <a>Copyright © 2023 ILAC and EFREI Paris – HTML-CSS major lab-work - created by: Alexandre Bussiere - All
+                rights reserved</a>
+        </footer>
+    </div>
+</body>
+
+</html>
