@@ -1,0 +1,114 @@
+/* The <body> element has to be styled with: */
+body {
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0 px;
+    background-image: url("../assets/image/Geo Tabletop Dice - Small.jpg");
+}
+
+/*  Style the <div> element with class “container” (it’s the main division that contains the entire HTML elements inside the body): */
+.container {
+    width: 950px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: aliceblue;
+}
+
+/*Style any element with class value of “content”, in other word target the class named “content”:*/
+.content {
+    padding: 10px;
+    line-height: 1.4 em;
+}
+
+/*Style the “header,
+nav,
+and footer” elements to share the following: a. Any Dark/Light background colour b. Any Dark/Light foreground colour (normal font colour)*/
+header,
+nav,
+footer {
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+
+ul {
+    margin: 0;
+    padding: 10px;
+}
+
+/*Style the list items <li> of the main navigation (nav), or inside the nav element:*/
+#main-nav li {
+    display: inline-block;
+    margin-right: 40 px;
+
+}
+
+#main-nav li :link {
+    color: rgb(0, 0, 0);
+}
+
+#main-nav li :visited {
+    color: rgb(51, 51, 51);
+}
+
+#main-nav li :hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+#main-nav li :active {
+    color: rgb(31, 81, 125);
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* 10. Style the three headings: h1, h2, and h3: a. To have margin of 10px for all the sides b. With Uppercase letterss */
+h1,
+h2,
+h3,
+h4 {
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+/* c. Different dark/light colour */
+h1 {
+    color: rgb(23, 23, 23);
+
+}
+
+h2 {
+    color: rgb(59, 59, 59);
+
+}
+
+h3 {
+    color: rgb(94, 94, 94);
+
+}
+
+/* 11. Style the custom class named “img-centre”: a. Centre the image horizontally (Hint: don’t forget that <img> is an inline element so you will need to make it block level element first in order to have it to work with margins) b. Having margin of 5px from the top and bottom c. Having padding of 2px to all the sides */
+.img-centre {
+    display: block;
+    margin: 5px auto;
+    padding: 2px;
+}
+
+audio {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+video {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
